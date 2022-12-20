@@ -19,14 +19,18 @@ resource "aws_s3_bucket" "data" {
     yor_trace            = "0874007d-903a-4b4c-945f-c9c233e13243"
       
   })
-  server_side_encryption_configuration {
-    rule {
-      apply_server_side_encryption_by_default {
-        sse_algorithm = "AES256"
-      }
-    }
+  grant {
+    type = "CanonicalUser"
+    permissions = ["FULL_CONTROL"]
+    id = "f38f4777a4f2052723d7fdd221eea566d4cb72d6dd3613c1dd6d3b44277e012c"
+  }
+  grant {
+    uri = "http://acs.amazonaws.com/groups/global/AllUsers"
+    type = "Group"
+    permissions = ["READ"]
   }
 }
+
 
 resource "aws_s3_bucket_object" "data_object" {
   bucket = aws_s3_bucket.data.id
