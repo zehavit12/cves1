@@ -31,6 +31,9 @@ resource google_compute_instance "server" {
     git_repo             = "terragoat"
     yor_trace            = "cd562b76-fbce-4e60-8c75-c9f43d7ffc16"
     keyyy1               = "valueeeee"
+    "2newtest"           = "2newtest"
+    "3newtest"           = "3newtest"
+    "8newtest"           = "8newtest"
   }
 }
 
@@ -46,5 +49,8 @@ resource google_compute_disk "unencrypted_disk" {
     git_repo             = "terragoat"
     yor_trace            = "bf87b7d7-a9d8-4f03-a0d4-8a4cbb647d03"
     keyyy1               = "valueeeee"
+    "2newtest"           = "2newtest"
+    "3newtest"           = "3newtest"
+    "8newtest"           = "8newtest"
   }
 }

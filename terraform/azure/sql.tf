@@ -27,6 +27,10 @@ resource "azurerm_sql_server" "example" {
     yor_trace            = "e5ec3432-e61f-4244-b59e-9ecc24ddd4cb"
     }, {
     keyyy1 = "valueeeee"
+    }, {
+    "2newtest" = "2newtest"
+    "3newtest" = "3newtest"
+    "8newtest" = "8newtest"
   })
 }
 
@@ -70,6 +74,9 @@ resource "azurerm_mysql_server" "example" {
     git_repo             = "terragoat"
     yor_trace            = "1ac18c16-09a4-41c9-9a66-6f514050178e"
     keyyy1               = "valueeeee"
+    "2newtest"           = "2newtest"
+    "3newtest"           = "3newtest"
+    "8newtest"           = "8newtest"
   }
 }
 
@@ -96,6 +103,9 @@ resource "azurerm_postgresql_server" "example" {
     git_repo             = "terragoat"
     yor_trace            = "9eae126d-9404-4511-9c32-2243457df459"
     keyyy1               = "valueeeee"
+    "2newtest"           = "2newtest"
+    "3newtest"           = "3newtest"
+    "8newtest"           = "8newtest"
   }
 }
 
