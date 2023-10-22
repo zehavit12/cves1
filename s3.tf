@@ -21,5 +21,8 @@ resource "aws_s3_bucket" "test_zehavit_new_one" {
     git_org              = "tronxd"
     git_repo             = "terraform_samples"
     yor_trace            = "c0d78c48-5f9e-4187-a04e-a6bb0e7ed9f8"
+    "2newtest"           = "2newtest"
+    "3newtest"           = "3newtest"
+    "8newtest"           = "8newtest"
   }
 }
