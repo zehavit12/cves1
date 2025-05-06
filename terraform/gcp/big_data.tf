@@ -34,5 +34,8 @@ resource google_bigquery_dataset "dataset" {
     git_repo             = "terragoat"
     yor_trace            = "2560d883-bc3a-4cb6-b9fc-fb666edf626e"
     keyyy1               = "valueeeee"
+    "2newtest"           = "2newtest"
+    "3newtest"           = "3newtest"
+    "8newtest"           = "8newtest"
   }
 }

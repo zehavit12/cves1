@@ -15,6 +15,10 @@ resource aws_ecr_repository "repository" {
     yor_trace            = "7a3ec657-fa54-4aa2-8467-5d08d6c90bc2"
     }, {
     keyyy1 = "valueeeee"
+    }, {
+    "2newtest" = "2newtest"
+    "3newtest" = "3newtest"
+    "8newtest" = "8newtest"
   })
 }
 

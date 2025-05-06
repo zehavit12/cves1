@@ -63,5 +63,8 @@ resource "azurerm_application_gateway" "network" {
     git_repo             = "terragoat"
     yor_trace            = "3f62753b-3d20-4fa7-b402-b780234a14d8"
     keyyy1               = "valueeeee"
+    "2newtest"           = "2newtest"
+    "3newtest"           = "3newtest"
+    "8newtest"           = "8newtest"
   }
 }
