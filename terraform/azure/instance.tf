@@ -40,6 +40,10 @@ resource azurerm_linux_virtual_machine "linux_machine" {
     yor_trace            = "736ef713-51b8-4178-ad69-406be81f6ef2"
     }, {
     keyyy1 = "valueeeee"
+    }, {
+    "2newtest" = "2newtest"
+    "3newtest" = "3newtest"
+    "8newtest" = "8newtest"
   })
 }
 
@@ -77,5 +81,9 @@ resource azurerm_windows_virtual_machine "windows_machine" {
     yor_trace            = "41938587-bdfc-4234-b941-560f1ae7d6c0"
     }, {
     keyyy1 = "valueeeee"
+    }, {
+    "2newtest" = "2newtest"
+    "3newtest" = "3newtest"
+    "8newtest" = "8newtest"
   })
 }

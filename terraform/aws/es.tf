@@ -24,6 +24,9 @@ resource "aws_elasticsearch_domain" "monitoring-framework" {
     git_repo             = "terragoat"
     yor_trace            = "95131dec-d7c9-49bb-9aff-eb0e2736603b"
     keyyy1               = "valueeeee"
+    "2newtest"           = "2newtest"
+    "3newtest"           = "3newtest"
+    "8newtest"           = "8newtest"
   }
 }
 

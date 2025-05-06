@@ -13,6 +13,9 @@ resource "aws_kms_key" "logs_key" {
     git_repo             = "terragoat"
     yor_trace            = "cd8fa2a7-4868-4cd1-993d-da4644808ce5"
     keyyy1               = "valueeeee"
+    "2newtest"           = "2newtest"
+    "3newtest"           = "3newtest"
+    "8newtest"           = "8newtest"
   }
 }
 
